@@ -1,0 +1,51 @@
+@use './fonts' as *;
+@use './breakpoints' as *;
+
+@mixin sm-breakpoint {
+    @media screen and (max-width: $breakpoint-sm){
+    @content
+    }
+}
+    
+@mixin md-breakpoint {
+    @media screen and (min-width: $breakpoint-md){
+    @content
+    }
+}
+    
+@mixin lg-breakpoint {
+    @media screen and (min-width: $breakpoint-lg){
+    @content
+    }
+}
+    
+@mixin xl-breakpoint {
+    @media screen and (min-width: $breakpoint-xl){
+    @content
+    }
+}
+
+
+@mixin font-styles($size, $color, $fontFamily, $weight, $lineHeight, $opacity) {
+    font-size: $size;
+    color: $color;
+    @if  $fontFamily { 
+        font-family:  $fontFamily;
+    } @else {
+        font-family: var(--font-dm-serif);
+    }
+    @if $weight { 
+        font-weight: $weight;
+    }@else{
+        font-weight: 400;
+    }
+    
+    @if $lineHeight {
+      line-height: $lineHeight;
+    }@else{
+        line-height: 50px;
+    }
+    @if $opacity {
+        opacity: $opacity;
+      }
+  }
