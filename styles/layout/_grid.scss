@@ -1,0 +1,20 @@
+@use '../abstracts/' as *;
+.grid-block{
+    margin: 0;
+    position: fixed;
+    top: 0;
+    z-index: $first-layer;
+    height: 100%;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.gridline-left{
+    width: var(--grid-width-400) ;
+    border-left: 1px solid $color-grid ;
+
+}
+.gridline-right{
+    border-right: 1px solid $color-grid ;
+}

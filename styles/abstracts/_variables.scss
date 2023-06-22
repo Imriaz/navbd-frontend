@@ -1,14 +1,16 @@
 @use './mixins' as *;
 :root{
+    --grid-width-400: 20.83%;
+    // button
     --button-width-220: 220px; 
     --button-height-75: 75px;
+
 }
 
 @include lg-breakpoint{
     :root{
         --button-width-220: 180px; 
         --button-height-75: 68px;
-
     }
 }
 @include md-breakpoint{
@@ -19,9 +21,17 @@
 }
 @include sm-breakpoint{
     :root{
+        --grid-width-400: 29.13%;
+        // button
         --button-width-220: 120px; 
         --button-height-75: 50px;
     }
 }
+
+// z-index
+$first-layer: -1;
+$second-layer: 1;
+$third-layer: 2;
+$forth-layer: 3;
 
 
