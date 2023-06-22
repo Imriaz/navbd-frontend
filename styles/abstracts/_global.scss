@@ -1,0 +1,17 @@
+@use './mixins' as *;
+
+h1{
+    margin: 0;
+}
+button{
+    border: none;
+}
+a{
+    text-decoration: none;
+    color: unset;
+}
+
+.center-align{
+    @include flex-center;
+}
+
