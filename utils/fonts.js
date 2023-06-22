@@ -8,7 +8,7 @@ import {
 export const jost = Jost({
   weight: ["400", "500", "600", "700"],
   subsets: ["latin"],
-  variable: "--font-jost",
+  variable: '--font-jost',
 });
 
 export const serif = DM_Serif_Display({
@@ -26,6 +26,6 @@ export const playfair = Playfair_Display({
 export const montserrat = Montserrat({
   weight: ["500", "600"],
   subsets: ["latin"],
-  variable: "--font-montserrat",
+  variable: '--font-montserrat',
 });
 

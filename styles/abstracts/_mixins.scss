@@ -1,51 +1,39 @@
-@use './fonts' as *;
 @use './breakpoints' as *;
 
+// screen size 1366px
+@mixin lg-breakpoint {
+    @media screen and (max-width: $breakpoint-lg) {
+        @content;
+    }
+}
+
+// screen size 1024px
+@mixin md-breakpoint {
+    @media screen and (max-width: $breakpoint-md){
+    @content;
+    }
+}
+
+// screen size 480px
 @mixin sm-breakpoint {
     @media screen and (max-width: $breakpoint-sm){
-    @content
+    @content;
     }
 }
     
-@mixin md-breakpoint {
-    @media screen and (min-width: $breakpoint-md){
-    @content
-    }
-}
-    
-@mixin lg-breakpoint {
-    @media screen and (min-width: $breakpoint-lg){
-    @content
-    }
-}
-    
-@mixin xl-breakpoint {
-    @media screen and (min-width: $breakpoint-xl){
-    @content
-    }
-}
 
-
-@mixin font-styles($size, $color, $fontFamily, $weight, $lineHeight, $opacity) {
+@mixin font-styles($size, $color, $fontFamily, $weight, $lineHeight, $opacity: null) {
     font-size: $size;
     color: $color;
-    @if  $fontFamily { 
-        font-family:  $fontFamily;
-    } @else {
-        font-family: var(--font-dm-serif);
-    }
-    @if $weight { 
-        font-weight: $weight;
-    }@else{
-        font-weight: 400;
-    }
-    
-    @if $lineHeight {
-      line-height: $lineHeight;
-    }@else{
-        line-height: 50px;
-    }
-    @if $opacity {
-        opacity: $opacity;
-      }
-  }
+    font-family:  $fontFamily;
+    font-weight: $weight;
+    line-height: $lineHeight;
+    opacity: $opacity;
+}
+
+@mixin flex-center($gap: 10px){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: $gap;
+}

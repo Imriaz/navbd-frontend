@@ -1,19 +1,64 @@
+@use './mixins' as *;
+//font family
+$font-family-jost : var(--font-jost);
+$font-family-serif : var(--font-dm-serif);
+$font-family-playfair : var(--font-playfair);
+$font-family-montserrat : var(--font-montserrat);
+
 //font size 
-$fontSize85 : 85px;
-$fontSize48 : 48px;
-$fontSize35 : 20px;  
-$fontSize28 : 28px;
-$fontSize25 : 25px;
-$fontSize22 : 22px;
-$fontSize20 : 20px;
-$fontSize18 : 18px;
+:root {
+    --font-size-85 : 85px;
+    --font-size-48 : 48px;
+    --font-size-35 : 35px;  
+    --font-size-28 : 28px;
+    --font-size-25 : 25px;
+    --font-size-22 : 22px;
+    --font-size-20 : 20px;
+    --font-size-18 : 18px;
+}
+@include lg-breakpoint {
+    :root {
+        --font-size-85 : 80px;
+        --font-size-48 : 42px;
+        --font-size-35 : 30px;  
+        --font-size-28 : 25px;
+        --font-size-25 : 22px;
+        --font-size-22 : 20px;
+        --font-size-20 : 18px;
+        --font-size-18 : 16px;
+    }
+}
+@include md-breakpoint {
+    :root {
+        --font-size-85 : 72px;
+        --font-size-48 : 38px;
+        --font-size-35 : 28px;  
+        --font-size-28 : 22px;
+        --font-size-25 : 20px;
+        --font-size-22 : 18px;
+        --font-size-20 : 16px;
+        --font-size-18 : 14px;
+    }
+}
+@include sm-breakpoint{
+    :root{
+        --font-size-85 : 50px;
+        --font-size-48 : 30px;
+        --font-size-35 : 20px;  
+        --font-size-28 : 18px;
+        --font-size-25 : 16px;
+        --font-size-22 : 14px;
+        --font-size-20 : 12px;
+        --font-size-18 : 10px;
+    }
+}
 
 //font weight
-$fontWeightRegular : 400;
-$fontWeightMedium: 500;
-$fontWeightBold: 600;
-$fontWeightBolder: 700;
+$font-weight-regular : 400;
+$font-weight-medium: 500;
+$font-weight-bold: 600;
+$font-weight-bolder: 700;
 
 //line height
-$fontLineHeight55 : 55px;
-$fontLineHeight40 : 40px;
+$font-line-height-55 : 55px;
+$font-line-height-40 : 40px;

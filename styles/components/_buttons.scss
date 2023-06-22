@@ -1,15 +1,38 @@
 @use '../abstracts' as *;
 
-.action-button{
-    height: 75px;
-    width: 220px;
-    background-color: #292F36;
+// GetStartedButton
+.get-started{
+    height: var(--button-height-75);
+    width: var(--button-width-220);
     border-radius: 18px;
     box-shadow: 0px 10px 20px rgba(192, 192, 192, 0.35); 
 }
-
-.button-title{
-    margin: 0;
-    @include font-styles( $fontSize28, $color-secondary , var(--font-jost), 700, 50px, 0.8 )
-
+.get-started-bg{
+    background-color: $color-secondary;
+}
+.get-started-bg:hover{
+    background-color: $color-primary;
+}
+.get-started-bg-dark{
+    background-color: $color-primary;
+}
+.get-started-bg-dark:hover{
+    background-color: $color-secondary;
+}
+.get-started-title{
+    @include font-styles(var(--font-size-18), $color-white, $font-family-jost, $font-weight-bold, 22.5px );
+}
+.get-started-arrow{
+    color: $color-primary;
+}
+.get-started-arrow-dark{
+    color: $color-secondary;
+}
+.get-started:hover{
+    .get-started-arrow{
+        color: $color-secondary;
+    }
+    .get-started-arrow-dark{
+        color: $color-primary;
+    }
 }
