@@ -1,5 +1,6 @@
 @use './mixins' as *;
 :root{
+    --max-width: 1920px;
     --grid-width-400: 20.83%;
     // button
     --button-width-220: 220px; 

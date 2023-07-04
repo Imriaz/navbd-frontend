@@ -1,8 +1,7 @@
 // import './globals.css'
-import { Inter } from "next/font/google";
+import "../styles/style.scss";
 import { jost, serif, playfair, montserrat } from "@/utils/fonts";
-
-const inter = Inter({ subsets: ["latin"] });
+import MiddleGrid from "@/components/grid/middleGrid";
 
 export const metadata = {
   title: "NavigationBD",
@@ -15,7 +14,8 @@ export default function RootLayout({ children }) {
       <body
         className={`${jost.variable} ${serif.variable} ${playfair.variable} ${montserrat.variable}`}
       >
-        {children}
+        <MiddleGrid />
+        <div className="main">{children}</div>
       </body>
     </html>
   );
