@@ -1,0 +1,21 @@
+{
+    "HomepageAdsSection": {
+      "title": "Shop For Sell",
+      "largeImage": "homepageLAds",
+      "smallImage": "homepageSAds",
+      "description": "NavigationBD prioritizes customer satisfaction above all else, recognizing that happy clients who benefit from the best rent, buy, and sell options in Bangladesh are the key to success."
+    },
+    "LeftSideAdsSection": {
+      "title": "Shop For Sell",
+      "largeImage": "leftSideLAds",
+      "smallImage": "leftSideSAds",
+      "description": "NavigationBD prioritizes customer satisfaction above all else, recognizing that happy clients who benefit from the best rent, buy, and sell options in Bangladesh are the key to success."
+    },
+    "RightSideAdsSection": {
+      "title": "Shop For Sell",
+      "largeImage": "rightSideLAds",
+      "smallImage": "rightSideSAds",
+      "description": "NavigationBD prioritizes customer satisfaction above all else, recognizing that happy clients who benefit from the best rent, buy, and sell options in Bangladesh are the key to success."
+    }
+  }
+  
