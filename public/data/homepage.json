@@ -1,0 +1,46 @@
+{
+    "HomepageCarousel": {
+      "title": "12+ YEARS of successful journey",
+      "description": "the highest customer satisfaction in different areas.",
+      "slug": "/",
+      "covers": [
+        "HomepageBanner1",
+        "HomepageBanner2",
+        "HomepageBanner3",
+        "HomepageBanner4",
+        "HomepageBanner5"
+      ]
+    },
+  
+    "HomepageDetailsCard": [
+      {
+        "title": "SERVICE, QUALITY, TRUST",
+        "description": "NavigationBD prioritizes customer satisfaction above all else, recognizing that happy clients who benefit from the best rent, buy, and sell options in Bangladesh are the key to success."
+      },
+      {
+        "title": "Dedicated Support Team",
+        "description": "At NavigationBD, we take pride in our unwavering commitment to customer service. Our dedicated support team has become synonymous with excellence in the real estate industry in Bangladesh. Trust us to provide unparalleled customer support as your chosen real estate service provider."
+      },
+      {
+        "title": "SPECIALIZED SERVICE",
+        "description": "Navigation BD Limited stands out from other Bangladeshi real estate services with our vast selection of thousands of properties, professional team, exclusive property listings, and prime locations. Trust us for all your real estate needs."
+      }
+    ],
+    "HomepageBenefits": {
+      "title": "Explore the unique benefits each option provides",
+      "description": "Discover the advantages of owning a property or renting as a tenant",
+      "benefitDetails": [
+        {
+          "title": "Property Owner Benefits",
+          "image": "benefits1",
+          "description": "<ul> <li>Potential for long-term financial gain through property appreciation </li> <li>Ability to generate passive income through rental payments </li> <li>Control over property use and maintenance </li> <li> </li>Control over property use and maintenance </ul> "
+        },
+        {
+          "title": "Tenant Benefits",
+          "image": "benefits2",
+          "description": "<ul> <li>Flexibility to move as needed without the responsibility of property maintenance</li> <li>Access to amenities and services provided by property management </li> <li>Lower upfront costs compared to owning a property </li> <li>Ability to invest savings into other opportunities, such as education or retirement planning </li> </ul> "
+        }
+      ]
+    }
+  }
+  
