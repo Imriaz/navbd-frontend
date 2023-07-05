@@ -1,0 +1,58 @@
+{
+  "PricingAndPlan": [
+    {
+      "title": "Regular Subscription",
+      "price": 299,
+      "isMostPopular": false,
+      "benefitList": [
+        {
+          "benefit": "Up to 2 Property Listing"
+        },
+        {
+          "benefit": "Showing Property to Millions of Customer"
+        },
+        {
+           "benefit": "24/7 Customer Support"
+        }
+      ]
+    },
+    {
+        "title": "Premium Subscription",
+        "price": 499,
+        "isMostPopular": true,
+        "benefitList": [
+          {
+            "benefit": "Up to 5 Property Listing"
+          },
+          {
+            "benefit": "Property Boosting on Different Media"
+          },
+          {
+            "benefit": "Listed on Trending Property List"
+          },
+          {
+            "benefit": "Showing Property to Millions of Customer"
+          },
+          {
+            "benefit": "24/7 Customer Support"
+          }
+        ]
+      },
+      {
+        "title": "Regular Membership",
+        "price": 999,
+        "isMostPopular": false,
+        "benefitList": [
+          {
+            "benefit": "Up to 5 Property Listing"
+          },
+          {
+            "benefit": "Property Boosting on Different Media"
+          },
+          {
+              "benefit": "Listed on Trending Property List"
+            }
+        ]
+      }
+  ]
+}

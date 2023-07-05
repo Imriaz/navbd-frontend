@@ -1,0 +1,88 @@
+{
+  "AboutUsCarousel": {
+    "slug": "/about-us",
+    "covers": ["AboutUsBanner1", "AboutUsBanner2", "AboutUsBanner3"]
+  },
+
+  "AboutUsShortDescription": [
+    {
+      "title": "We set the trends of modern living Services",
+      "heading": "Navigation BD Limited was established in 2010, a sister concern of BJIT Group",
+      "description": "( <b> BJIT Bangladesh </b> Japan Information Technology which has 21+ years of successful business experience internationally, in software development and IT services ). <b> NavigationBD </b> is a house of creative solutions that are engaged in providing innovatively customized information services through online web portals, where the general public can avail of specific information on selective areas of interest. However, it is not just another web-portal firm, rather it is a company that strives to empower societies with its range of innovations."
+    }
+  ],
+  "Vision": {
+    "title": "VISION",
+    "image": "visionImage",
+    "icon": "visionIcon",
+    "description": "Our vision is to promote a convenient lifestyle and become the most trustworthy agency in Bangladesh."
+  },
+  "Mission": {
+    "title": "MISSION",
+    "image": "missionImage",
+    "icon": "missionIcon",
+    "description": "Our mission is to make international clients feel at home while they are on foreign land by offering them upscale rental services. We also want to pave the way for all the foreign nations to merge in Bangladesh and form a strong link."
+  },
+  "Objective": {
+    "title": "OBJECTIVE",
+    "image": "objectiveImage",
+    "icon": "objectiveIcon",
+    "description": "Fostering vibrant Economies, Promoting convenient Lifestyles, Motivating investment decisions even during the slow economy, Making technology-deprived People benefited"
+  },
+  "OurTeam": [
+    {
+      "title": "Akbar JM",
+      "image": "akbarJMPhoto",
+      "designation": "Representative Director & CEO"
+    },
+    {
+      "title": "Salim Jahangir",
+      "image": "salimJPhoto",
+      "designation": "Chairman"
+    },
+    {
+      "title": "Hosna Ara Jasmine",
+      "image": "jasminePhoto",
+      "designation": "Board of Director"
+    },
+    {
+      "title": "Rahima Khanam",
+      "image": "rahimaPhoto",
+      "designation": "Board of Director"
+    },
+    {
+      "title": "Sunakoda Kaoru",
+      "image": "sunakodaPhoto",
+      "designation": "Japanese Consultant"
+    }
+  ],
+  "Story": {
+    "title": "The Story",
+    "description": "John, a passionate and visionary CEO in the real estate industry, achieved remarkable success by developing a groundbreaking mixed-use property. His ability to think outside the box and take calculated risks set him apart from his competitors. John's hands-on approach, combined with his inspiring leadership style and focus on innovation, created a culture of excellence within his company. His legacy goes beyond impressive projects, as he demonstrated that success can be attained by fostering a positive company culture and being both visionary and hands-on."
+  },
+  "AboutCustomsSection": {
+    "title": "SUSTAINABILITY",
+    "largeImage": "sustainabilityLargeImage",
+    "smallImage": "sustainabilitySmallImage"
+  },
+  "AboutPossibilitiesSection": {
+    "title": "Navigating Possibilities: Where Real Estate Dreams Come True",
+    "description": "If you are looking to rent, buy, and sell residential or commercial space from a wide range of properties available online, or if you are a foreigner and you are in search of renting a residential or commercial space then you are in the right place.",
+    "largeImage": "possibilitiesLargeImage",
+    "smallImage": "possibilitiesSmallImage"
+  },
+  "AboutUSDetailsCard": [
+    {
+      "title": "RENT",
+      "description": "Find your dream property with us. We offer comprehensive assistance in acquiring residential and commercial spaces."
+    },
+    {
+      "title": "BUY & SELL",
+      "description": "Our real estate services provide comprehensive assistance in the acquisition of both residential and commercial properties."
+    },
+    {
+      "title": "AGENT",
+      "description": "We provide efficient and effective assistance to sell your residential or commercial property."
+    }
+  ]
+}

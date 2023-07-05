@@ -1,0 +1,21 @@
+{
+    "ServicesCarousel": {
+      "slug": "/services",
+      "covers": ["servicesBanner1", "servicesBanner2", "servicesBanner3"]
+    },
+    "ServicesDetailsCard": [
+        {
+          "title": "Rent",
+          "description": "NavigationBD provides rental services to local market and create a bridge between the property owner and tenant where property owner can list their property on our website and renters can rent the property by communicating with the property owner directly with out facing any hassle."
+        },
+        {
+          "title": "Buy",
+          "description": "NavigationBD creates a bridge between the buyer and seller where sellers can list their property on our website and buyers can buy the property by communicating with the property owner directly."
+        },
+        {
+          "title": "Sale",
+          "description": "NavigationBD works as a agent to help maximize the sell. NavigationBD will visit the property first and sign a legal contract with the property owner so that we can help the property owner to sell the property effectively. On the other hand, buyers can assign us as agent to help them buy a perfect property."
+        }
+      ]
+  }
+  

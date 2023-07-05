@@ -28,7 +28,7 @@
     ],
     "HomepageBenefits": {
       "title": "Explore the unique benefits each option provides",
-      "description": "Discover the advantages of owning a property or renting as a tenant",
+      "heading": "Discover the advantages of owning a property or renting as a tenant",
       "benefitDetails": [
         {
           "title": "Property Owner Benefits",
